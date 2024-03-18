@@ -1,0 +1,257 @@
+
+.container-fluid{
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  height: 600px;
+  animation: gradient-animation 18s ease infinite;
+  width:100%;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+  padding: 0;
+ margin: 0;
+ 
+ 
+ 
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+h1{
+  font-size: 7rem;
+  display: flex;
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  
+ 
+  
+}
+.h1{
+ display: flex;
+ flex-direction: column;
+ left: 160px;
+ height: 100%;
+ justify-content:center;
+ align-items:end;
+ left: 100px;
+ margin-left: 150px;
+
+}
+.head-btn{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 15px;
+  
+}
+
+.btn-header{
+  display: flex;
+  width: fit-content;
+  align-content: center;
+  
+}
+
+  #apple{
+    color: black;
+    background-color: white;
+    border: none;
+    
+  }
+  #android{
+    color: white;
+    border: solid white;
+  }
+    
+  svg{
+    margin-right: 5px;
+  }
+
+
+.image-div{
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-direction: row;
+  align-items: end;
+  justify-content: center;
+}
+.image-div img{
+  height: 80%;
+}
+.card-body h1{
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  width: 100%;
+  font-size: 4rem;
+}
+
+
+#featured-3{
+  margin: 0;
+}
+
+.middle{
+  display: flex;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  
+}
+
+.badges{
+  display: flex;
+  justify-content: space-around;
+  height: 5%;
+  width: 100vh;
+  gap: 30px;
+  
+}
+
+.logo-middle{
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+
+
+.dogimg{
+  border-radius: 50%;
+  height:100px;
+  width: 100px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  
+}
+.middle-p{
+ margin-bottom: 40px;
+}
+
+.h2-pricing{
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 40px;
+}
+
+.pricing h3{
+  margin-bottom: 40px;
+  color: rgb(160, 158, 158)
+}
+
+.pricing{
+margin-top: 50px;
+background-color: aliceblue;
+margin: 10px;
+}
+
+.body-cr{
+  border: none!important;
+}
+
+.ft-ct{
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  width: 100%;
+  margin: 0!important;
+  padding: 0!important;
+  max-width: 100%!important;
+  
+}
+
+.card-header{
+  background: rgb(166,54,242)!important;
+background: linear-gradient(90deg, rgba(166,54,242,1) 0%, rgba(253,156,29,1) 28%, rgba(166,54,242,1) 100%)!important;
+}
+
+
+@media (max-width: 1000px) {
+  .container-fluid{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
+    width: 100vh;
+    flex-wrap: wrap;
+
+  }
+  .h1{
+    order: 2;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+  }
+  .image-div{  order: 1;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .middle{
+    display: flex;
+    background-color: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    border-radius: 10px;
+
+  }
+ .badges{
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ width: 100%;
+ justify-content: center;
+ align-items: center;
+ padding: 0;
+ margin-top: 10px;
+ gap: 0;
+  }
+
+ .logo-middle{
+    width: 40%;
+    
+  }
+
+  .pricing{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+ .pricing-tbl{
+  width: 60%;
+
+  
+ }
+
+ 
+}
